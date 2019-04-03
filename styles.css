@@ -2,3 +2,32 @@ body {
             background: #034ec6;
             color: #ffffff;
         }
+a {
+    color: yellow;
+}
+a:hover {
+    color: #fff;
+}
+
+#port-nav ul {
+    list-style: none;
+}
+
+#port-nav>ul>li {
+    display: inline;
+}
+
+#port-nav>ul>li>a {
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    background: green;
+    text-decoration: none;
+}
+
+#port-nav>ul>li>a:hover {
+    background: pink;
+    color: #333;
+    border-radius: 0px;
+    transition: all .2s linear;
+}
